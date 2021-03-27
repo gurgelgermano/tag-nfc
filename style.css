@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #4D02E0,  #8D2CE2);
+  color: aliceblue;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.whatsapp {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #1FB356, #24D265);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.email {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #A622E5, #6E1698);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #085FB5, #074B8F);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.instagram {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #EB7E38,#D22459, #C11C7D);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.github {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #191622,#000000);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.pix {
+  text-decoration: none;
+  color: aliceblue;
+  background: linear-gradient(to left, #35AEA5,#40D4C9);
+  padding: 5px;
+  text-align: center;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
